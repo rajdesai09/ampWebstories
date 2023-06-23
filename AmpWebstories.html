@@ -1,0 +1,1200 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <script async custom-element="amp-story-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
+
+
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="https://amp.dev/documentation/examples/components/amp-carousel/index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"> </script>
+
+    <script custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-latest.js"></script>
+
+    <script src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.mjs" async="" custom-element="amp-story-auto-ads"
+        type="module" crossorigin="anonymous"></script>
+
+    <script async="" nomodule="" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js" crossorigin="anonymous"
+        custom-element="amp-story-auto-ads"></script>
+
+    <!-- AMP Analytics -->
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"
+        custom-element="amp-story"></script>
+
+    <!-- AMP Analytics -->
+    <!-- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script> -->
+
+
+    <!-- Amp Youtube video supporting CDN -->
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js">
+    </script>
+
+
+
+    <!-- hide and show in amp -->
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+
+    <!-- accordion hide and show in amp -->
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+
+    <!-- carousel -->
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js">
+    </script>
+
+    <!-- side bar -->
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <link rel="canonical" href="$STORY_URL">
+    <!-- carousel css -->
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <!-- carousel css -->
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+    <!-- amp custom style tag -->
+    <style amp-custom>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            background-color: aliceblue;
+            height: 200px;
+            padding-top: 20px;
+        }
+
+        h1 {
+            color: darkgoldenrod;
+        }
+
+        .left-box,
+        .right-box {
+            width: 50%;
+            float: left;
+            font-size: 15px;
+        }
+
+        .cta_click {
+            color: #ffffff;
+            background-color: red;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 25%;
+        }
+
+        /* .hidden012 { display: none; }  */
+    </style>
+
+
+
+
+</head>
+
+<body class="body">
+
+
+
+
+
+    <amp-story standalone="" publisher="CoinGape"
+        publisher-logo-src="https://cdn.coingape.com/wp-content/uploads/2022/01/27115534/web-storiesLogo.png"
+        poster-portrait-src="https://cdn.coingape.com/wp-content/uploads/2023/05/17122054/mattel_set_to_release_its_new_fast___furious_nft_series_720.jpg"
+        background-audio="https://cdn.coingape.com/wp-content/uploads/2022/03/26131122/News-corporate.mp3"
+        class="i-amphtml-layout-container i-amphtml-element i-amphtml-experiment-story-load-inactive-outside-viewport i-amphtml-built i-amphtml-story-desktop-one-panel i-amphtml-layout i-amphtml-story-loaded"
+        i-amphtml-layout="container" muted="" orientation="portrait">
+        <amp-story-page id="37606f7d-ef5c-462e-924d-2099d8d5870c" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="0" aria-hidden="false" i-amphtml-visited=""
+            active=""><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_337111d page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-b898b784-d317-4e35-837d-93ab0baed616">
+                                <div data-leaf-element="true" class="_e3d3f30"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17114746/image.webp"
+                                        alt="image"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" style="--loader-delay-offset: 50ms !important;"><img
+                                            decoding="async" alt="image"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/17114746/image.webp"
+                                            class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_a4e2048">
+                            <div class="_8b843c1 mask"><svg width="0" height="0">
+                                    <defs>
+                                        <clipPath id="el-a27f6d5d-3f32-4b74-b57c-f37eef8a6fdf"
+                                            transform="scale(1 0.89949881)" clipPathUnits="objectBoundingBox">
+                                            <path
+                                                d="M 0.205572 , 1.093842 c -0.054252 -0.008798 -0.099413 -0.059824 -0.138710 -0.124340 c -0.033431 -0.054545 -0.055718 -0.117009 -0.063050 -0.179472 c -0.008211 -0.072727 -0.007038 -0.144575 , 0.040762 -0.183578 C 0.119648 , 0.545455 , 0.165396 , 0.498827 , 0.191789 , 0.454545 c 0.047507 -0.080059 , 0.043109 -0.137830 , 0.056012 -0.204106 c 0.009971 -0.051906 , 0.027566 -0.112023 , 0.102933 -0.184457 c 0.041056 -0.039589 , 0.110264 -0.059238 , 0.183578 -0.064809 c 0.062170 -0.004692 , 0.129326 , 0.005572 , 0.193255 , 0.024340 c 0.064809 , 0.018768 , 0.124047 , 0.048974 , 0.170968 , 0.090323 c 0.049267 , 0.043988 , 0.094135 , 0.097654 , 0.100587 , 0.165982 c 0.005279 , 0.055132 -0.024927 , 0.114663 -0.060997 , 0.184751 c -0.058065 , 0.112610 -0.068328 , 0.188563 -0.080352 , 0.247801 c -0.016716 , 0.080938 -0.010264 , 0.143109 -0.067449 , 0.252199 c -0.030792 , 0.058944 -0.102053 , 0.082405 -0.175367 , 0.105279 c -0.061877 , 0.019648 -0.130205 , 0.038710 -0.202346 , 0.039589 C 0.340762 , 1.112903 , 0.268622 , 1.104106 , 0.205572 , 1.093842 z">
+                                            </path>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="_23ad725 fill"></div>
+                            </div>
+                        </div>
+                        <div class="_af7ca6d">
+                            <div id="el-95d3c104-d1ae-460f-887b-69999e8d9702" class="_a7cf4df">
+                                <h3 class="_f481185 fill text-wrapper"><span><span class="_4bbb41a">May 17,
+                                            2023</span></span></h3>
+                            </div>
+                        </div>
+                        <div class="_10ceedb">
+                            <div id="el-35d6ccf3-0a19-4cc7-88aa-f54b7291ed26" class="_89d52dd"><svg viewBox="0 0 205 13"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg" class="_25a5434">
+                                    <title>Arrow</title>
+                                    <path d="M.333008 6.49949L204 6.49947M199.193.875L204 6.7086l-4.807 5.8336"
+                                        stroke="#fff" stroke-width="1.09867"></path>
+                                </svg></div>
+                        </div>
+                        <div class="_5de25be">
+                            <div id="el-4e8ca808-91f8-46ba-9679-1a6332467c1a" class="_7d4ccf5">
+                                <h2 class="_9890342 fill text-wrapper"><span><span class="_14af73e">Mattel Set To
+                                            Release Its New Fast &amp; Furious NFT Series</span></span></h2>
+                            </div>
+                        </div>
+                        <div class="_6fa8448">
+                            <div class="_89d52dd mask" id="el-468b2ac3-b916-4b9e-8f9b-886a11e5e359">
+                                <div data-leaf-element="true" class="_f0c1498"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/12140510/coingape-logo.png"
+                                        alt="coingape-logo"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" style="--loader-delay-offset: 49ms !important;"><img
+                                            decoding="async" alt="coingape-logo"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/12140510/coingape-logo.png"
+                                            class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="9f18928a-ea60-4720-a1ae-3ed723a1055d" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="1" aria-hidden="true"><amp-story-animation
+                layout="nodisplay" trigger="visibility" class="i-amphtml-layout-nodisplay" hidden="hidden"
+                i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-88bb1059-564d-48bf-837d-3116486b3cb7","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-9a6d94ea-f4f9-4863-a0a1-e0b9db7d25e3","keyframes":{"transform":["translate3d(-103.3419%, 0px, 0)","translate3d(0px, 0px, 0)"]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-81f73da9-3063-4688-bf8b-6f2227f754a8","keyframes":{"opacity":[0,1]},"delay":0,"duration":3500,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-8e26c6ae-e9ff-4f71-bd44-c1e1b5589409 [data-leaf-element=\"true\"]","keyframes":{"transform":["translate3d(-62.97539052891762%, 0, 0)","translate3d(0%, 0, 0)"]},"delay":0,"duration":3500,"easing":"cubic-bezier(.3,0,.55,1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_ab986fd page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div id="anim-8e26c6ae-e9ff-4f71-bd44-c1e1b5589409" class="_254c3af animation-wrapper">
+                                <div class="_89d52dd mask" id="el-e0c89e43-8950-4491-9274-932fdbe48ae7">
+                                    <div data-leaf-element="true" class="_4af12af"><amp-img layout="fill"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/17131424/Fast-and-furious-1.jpg"
+                                            alt="Fast-and-furious"
+                                            class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                            i-amphtml-layout="fill" style="--loader-delay-offset: 1ms !important;"><img
+                                                decoding="async" alt="Fast-and-furious"
+                                                src="https://cdn.coingape.com/wp-content/uploads/2023/05/17131424/Fast-and-furious-1.jpg"
+                                                class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_d325fe5">
+                            <div id="anim-88bb1059-564d-48bf-837d-3116486b3cb7" class="_75da10d animation-wrapper">
+                                <div id="anim-9a6d94ea-f4f9-4863-a0a1-e0b9db7d25e3" class="_6a33859 animation-wrapper">
+                                    <div class="_89d52dd mask" id="el-93eb113b-32ad-4629-b8c1-00a18d8f8eac">
+                                        <div class="_4c7279b fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_d422e74">
+                            <div id="anim-81f73da9-3063-4688-bf8b-6f2227f754a8" class="_75da10d animation-wrapper">
+                                <div id="el-2f4ad8ec-5344-4bfb-84f1-3d04badd89e9" class="_6bfa98b">
+                                    <h3 class="_52203ba fill text-wrapper"><span><span class="_4bbb41a">Mattel is set to
+                                                launch the newest edition of its Hot Wheels NFT Garage Series on May
+                                                22.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="308fe222-2ef2-423b-b8a9-70c891ff644c" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="2" aria-hidden="true"><amp-story-animation
+                layout="nodisplay" trigger="visibility" class="i-amphtml-layout-nodisplay" hidden="hidden"
+                i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-baceb1e5-0cfe-4d4d-8648-63d6415cb314","keyframes":{"opacity":[0,1]},"delay":0,"duration":3500,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-677656fe-ff48-40dc-9cb7-c25da9194d7b","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-c5b9497e-3c44-4268-98ad-0d3ca8b59f1c","keyframes":{"transform":["translate3d(0px, -100.07559%, 0)","translate3d(0px, 0px, 0)"]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_c84718f page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-520452a8-cd42-4ba2-83c9-05f29a9c41a0">
+                                <div data-leaf-element="true" class="_b9d1f39"><amp-video
+                                        id="el-520452a8-cd42-4ba2-83c9-05f29a9c41a0-media" autoplay="autoplay"
+                                        loop="loop" noaudio="noaudio"
+                                        poster="https://media.tenor.com/4eWkN6seFP8AAAAe/lamborghini-cars.png"
+                                        layout="fill" alt="Lamborghini Cars GIF"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-disable-mediasession i-amphtml-poolbound i-amphtml-media-component i-amphtml-video-interface i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" preload="auto" aria-label="Lamborghini Cars GIF"><video
+                                            class="i-amphtml-pool-media i-amphtml-pool-video i-amphtml-fill-content i-amphtml-replaced-content"
+                                            id="i-amphtml-pool-media-5" playsinline="" webkit-playsinline=""
+                                            preload="auto" aria-label="Lamborghini Cars GIF" loop="loop"
+                                            poster="https://media.tenor.com/4eWkN6seFP8AAAAe/lamborghini-cars.png"
+                                            muted="">
+                                            <source type="video/mp4"
+                                                src="https://media.tenor.com/4eWkN6seFP8AAAPo/lamborghini-cars.mp4">
+                                        </video></amp-video></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_63b56b5">
+                            <div id="anim-677656fe-ff48-40dc-9cb7-c25da9194d7b" class="_75da10d animation-wrapper">
+                                <div id="anim-c5b9497e-3c44-4268-98ad-0d3ca8b59f1c" class="_64c3a63 animation-wrapper">
+                                    <div class="_89d52dd mask" id="el-c2a022af-9b39-42bf-81aa-12c7a783f1ce">
+                                        <div class="_4c7279b fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_9dae1f2">
+                            <div id="anim-baceb1e5-0cfe-4d4d-8648-63d6415cb314" class="_75da10d animation-wrapper">
+                                <div id="el-68637e6b-9cbb-447e-95a7-799b38f241b7" class="_a09c3b3">
+                                    <h3 class="_ac5866e fill text-wrapper"><span><span class="_4bbb41a">The new NFT
+                                                series is based on the iconic series Fast and Furious and is timed
+                                                alongside the release of the latest installment in the
+                                                series.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="cd983175-f779-476c-93fb-4d5f689f4ab9" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="3" aria-hidden="true"><amp-story-animation
+                layout="nodisplay" trigger="visibility" class="i-amphtml-layout-nodisplay" hidden="hidden"
+                i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-9d4a1ed0-7cb4-4fd8-b63a-6736b048514e","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-6c1e7895-9e36-4c7a-81d3-8b5bb6ffa746","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_30849ae page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-f5cbff0b-f418-4bf4-ace9-5b3bcae5a687">
+                                <div class="_dc67a5c fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_5be39a5">
+                            <div class="_89d52dd mask" id="el-638192b7-4b8f-40e2-908c-0ad0f38427f5">
+                                <div data-leaf-element="true" class="_3170a91"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17120718/flow-flow-logo.png"
+                                        alt="flow-flow-logo"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" style="--loader-delay-offset: 1ms !important;"><img
+                                            decoding="async" alt="flow-flow-logo"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/17120718/flow-flow-logo.png"
+                                            class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img></div>
+                            </div>
+                        </div>
+                        <div class="_08d21ef">
+                            <div id="anim-9d4a1ed0-7cb4-4fd8-b63a-6736b048514e" class="_75da10d animation-wrapper">
+                                <div class="_89d52dd mask" id="el-f8109ea6-e5a5-4236-87a1-c2085628062b">
+                                    <div class="_4c7279b fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_b4978c3">
+                            <div id="anim-6c1e7895-9e36-4c7a-81d3-8b5bb6ffa746" class="_75da10d animation-wrapper">
+                                <div id="el-a28aa183-5cae-49ab-b945-c0ca1df024ea" class="_ae61225">
+                                    <h3 class="_7c0cfed fill text-wrapper"><span><span class="_4bbb41a">The Hot Wheels
+                                                NFT Garage x Fast &amp; Furious collection will be based on the Flow
+                                                Blockchain.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="c6e87800-7b54-44ad-b96d-55798d911124" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="4" aria-hidden="true"><amp-story-animation
+                layout="nodisplay" trigger="visibility" class="i-amphtml-layout-nodisplay" hidden="hidden"
+                i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-4f578bf6-d6e0-4333-a395-e49bd7f0cf80","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-e9a8911f-1783-45a0-8ca0-d2f3de3219d9","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_d0050f7 page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-d580a6be-1cee-46c0-9206-b52b6b6e8510">
+                                <div data-leaf-element="true" class="_411385a"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17114731/nprmMDhkAR0ty4KEU9CkVyFUclE.jpg"
+                                        alt="nprmMDhkAR0ty4KEU9CkVyFUclE"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" style="--loader-delay-offset: 1ms !important;"><img
+                                            decoding="async" alt="nprmMDhkAR0ty4KEU9CkVyFUclE"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/17114731/nprmMDhkAR0ty4KEU9CkVyFUclE.jpg"
+                                            class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_7ab0e6b">
+                            <div id="anim-4f578bf6-d6e0-4333-a395-e49bd7f0cf80" class="_75da10d animation-wrapper">
+                                <div class="_adabe83 mask"><svg width="0" height="0">
+                                        <defs>
+                                            <clipPath id="el-5a0cf094-1633-4537-a7fc-7f4cb111988e"
+                                                transform="scale(1 0.89949881)" clipPathUnits="objectBoundingBox">
+                                                <path
+                                                    d="M 0.205572 , 1.093842 c -0.054252 -0.008798 -0.099413 -0.059824 -0.138710 -0.124340 c -0.033431 -0.054545 -0.055718 -0.117009 -0.063050 -0.179472 c -0.008211 -0.072727 -0.007038 -0.144575 , 0.040762 -0.183578 C 0.119648 , 0.545455 , 0.165396 , 0.498827 , 0.191789 , 0.454545 c 0.047507 -0.080059 , 0.043109 -0.137830 , 0.056012 -0.204106 c 0.009971 -0.051906 , 0.027566 -0.112023 , 0.102933 -0.184457 c 0.041056 -0.039589 , 0.110264 -0.059238 , 0.183578 -0.064809 c 0.062170 -0.004692 , 0.129326 , 0.005572 , 0.193255 , 0.024340 c 0.064809 , 0.018768 , 0.124047 , 0.048974 , 0.170968 , 0.090323 c 0.049267 , 0.043988 , 0.094135 , 0.097654 , 0.100587 , 0.165982 c 0.005279 , 0.055132 -0.024927 , 0.114663 -0.060997 , 0.184751 c -0.058065 , 0.112610 -0.068328 , 0.188563 -0.080352 , 0.247801 c -0.016716 , 0.080938 -0.010264 , 0.143109 -0.067449 , 0.252199 c -0.030792 , 0.058944 -0.102053 , 0.082405 -0.175367 , 0.105279 c -0.061877 , 0.019648 -0.130205 , 0.038710 -0.202346 , 0.039589 C 0.340762 , 1.112903 , 0.268622 , 1.104106 , 0.205572 , 1.093842 z">
+                                                </path>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <div class="_b990c8b fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_d758eaf">
+                            <div id="anim-e9a8911f-1783-45a0-8ca0-d2f3de3219d9" class="_75da10d animation-wrapper">
+                                <div id="el-a9a81b50-90ef-479f-9b7a-ef6e9f44fca8" class="_0fa73c6">
+                                    <h3 class="_6dd4f1f fill text-wrapper"><span><span class="_4bbb41a">It will feature
+                                                cars from the movies, including Dominic Toretto's 1970 Dodge Charger,
+                                                Brian O'Conner's 1969 Camero, and Suki's Honda S2000 from 2 Fast 2
+                                                Furious.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="30a927fe-8408-46c0-abf9-1ff67588ba93" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout i-amphtml-story-page-loaded"
+            i-amphtml-layout="container" role="region" distance="5" aria-hidden="true"><amp-story-grid-layer
+                template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_c84718f page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-975a9190-860d-425d-874f-b6b940fbbe76">
+                                <div data-leaf-element="true" class="_9f38606"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17124245/42abe933f8ed58cecad5c5284f87c0c7.webp"
+                                        alt="42abe933f8ed58cecad5c5284f87c0c7"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"
+                                        i-amphtml-layout="fill" style="--loader-delay-offset: 0ms !important;"><img
+                                            decoding="async" alt="42abe933f8ed58cecad5c5284f87c0c7"
+                                            src="https://cdn.coingape.com/wp-content/uploads/2023/05/17124245/42abe933f8ed58cecad5c5284f87c0c7.webp"
+                                            class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_ec28d92">
+                            <div class="_89d52dd mask" id="el-f11cad1f-08af-418b-b1ea-f9f67e6faebc">
+                                <div class="_4c7279b fill"></div>
+                            </div>
+                        </div>
+                        <div class="_1f2e895">
+                            <div id="el-40822b88-af44-44f2-9d56-779c06bf5c08" class="_fbf53b4">
+                                <h3 class="_e2cdeae fill text-wrapper"><span><span class="_4bbb41a">The cost of the
+                                            limited edition NFTs will be $20 per pack.</span></span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="72d60892-9f41-4977-971e-ccab2328559f" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built" i-amphtml-layout="container"
+            role="region" distance="6" aria-hidden="true"><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-d11b2a72-f34f-44fb-bb8c-e4ff915c143d","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-f171831c-7725-432f-b349-e4d927ab65ad","keyframes":{"transform":["translate3d(-100%, 0px, 0)","translate3d(0px, 0px, 0)"]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-b7890f18-7538-4b4e-a248-4882091d1c09","keyframes":{"opacity":[0,1]},"delay":5,"duration":800,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_883796f page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-b5afa86c-6d20-494d-a976-508b8e9410a4">
+                                <div data-leaf-element="true" class="_4efb08a"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17124658/starwarssaga-blogroll-1653501853399.jpg"
+                                        alt="starwarssaga-blogroll-1653501853399"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built"
+                                        i-amphtml-layout="fill"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_542a07c">
+                            <div id="anim-d11b2a72-f34f-44fb-bb8c-e4ff915c143d" class="_75da10d animation-wrapper">
+                                <div id="anim-f171831c-7725-432f-b349-e4d927ab65ad" class="_1093959 animation-wrapper">
+                                    <div class="_89d52dd mask" id="el-73336332-b4c3-405c-ba9c-7f112184616c">
+                                        <div class="_4c7279b fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_c344c50">
+                            <div id="anim-b7890f18-7538-4b4e-a248-4882091d1c09" class="_75da10d animation-wrapper">
+                                <div id="el-cccb8f9a-7ad6-411a-80d6-b7713e7cbbb7" class="_cb97491">
+                                    <h3 class="_e2cdeae fill text-wrapper"><span><span class="_4bbb41a">Mattel has been
+                                                experimenting with ‘Digital Toys’ NFTs and is also set to launch a
+                                                collection of Star Wars-themed digital collectibles called
+                                                Cryptoys.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+        </amp-story-page><amp-story-page id="45c815a5-c75b-4055-95fa-499d2e8e4ba6" auto-advance-after="7s"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built" i-amphtml-layout="container"
+            role="region" distance="7" aria-hidden="true"><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-123bfb2c-c2c9-40d7-ba2d-1740e09456ff","keyframes":{"opacity":[0,1]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-3217e72b-a7d3-4706-bd4b-2799fa68a2df","keyframes":{"transform":["translate3d(-100%, 0px, 0)","translate3d(0px, 0px, 0)"]},"delay":0,"duration":600,"easing":"cubic-bezier(0.2, 0.6, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-animation layout="nodisplay" trigger="visibility"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+                <script
+                    type="application/json">[{"selector":"#anim-31dd608e-1dae-4313-bc72-5122f65d2725","keyframes":{"opacity":[0,1]},"delay":5,"duration":800,"easing":"cubic-bezier(0.4, 0.4, 0.0, 1)","fill":"both"}]</script>
+            </amp-story-animation><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="_565196e page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_6120891">
+                            <div class="_89d52dd mask" id="el-57a1cfb5-7ccf-48bd-9a9e-ee0644fc5b02">
+                                <div data-leaf-element="true" class="_f9f3b85"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/17125200/Catalog_Mobile_640x%402x.webp"
+                                        alt="Catalog_Mobile_640x@2x"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built"
+                                        i-amphtml-layout="fill"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer><amp-story-grid-layer template="vertical" aspect-ratio="412:618"
+                class="grid-layer i-amphtml-layout-container i-amphtml-element i-amphtml-story-layer i-amphtml-built"
+                i-amphtml-layout="container" style="--aspect-ratio: 412/618 !important;">
+                <div class="page-fullbleed-area">
+                    <div class="page-safe-area">
+                        <div class="_a4fac9c">
+                            <div id="anim-123bfb2c-c2c9-40d7-ba2d-1740e09456ff" class="_75da10d animation-wrapper">
+                                <div id="anim-3217e72b-a7d3-4706-bd4b-2799fa68a2df" class="_1093959 animation-wrapper">
+                                    <div class="_89d52dd mask" id="el-f772c690-660b-492f-bd6b-ac8fb12db7b7">
+                                        <div class="_4c7279b fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_6376fa4">
+                            <div id="anim-31dd608e-1dae-4313-bc72-5122f65d2725" class="_75da10d animation-wrapper">
+                                <div id="el-b22aeb76-5fd9-4dfa-87e8-92b5d415ec73" class="_dfdc1d8">
+                                    <h3 class="_e2cdeae fill text-wrapper"><span><span class="_4bbb41a">Another NFT
+                                                collection by Mattel, Boss Beauties x Barbie, will be released on May
+                                                18, 2023, that will pay homage to the 250 careers of
+                                                Barbie.</span></span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_d037a91">
+                            <div class="_89d52dd mask" id="el-6d5a3004-d9ba-43d0-b773-fe32e098227d">
+                                <div data-leaf-element="true" class="_096861a"><amp-img layout="fill"
+                                        src="https://cdn.coingape.com/wp-content/uploads/2023/05/12140510/coingape-logo.png"
+                                        alt="coingape-logo"
+                                        class="i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built"
+                                        i-amphtml-layout="fill"></amp-img></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </amp-story-grid-layer>
+
+
+            <amp-story-grid-layer
+                class="recircular i-amphtml-element i-amphtml-layout-container i-amphtml-story-layer i-amphtml-built"
+                id="rcontent" template="vertical" i-amphtml-layout="container">
+                <div class="letterbox">
+                    <div class="mid-heading">
+                        <h3>You may also like</h3>
+                    </div>
+                    <div class="rc1 pa">
+                        <a class="story-tooltip pa" data-tooltip-text="Click Here" role="link" id="rc1"
+                            href="https://www.jagrantv.com/hi-show/bank-holidays-in-june-2023-banks-will-remain-closed-for-12-days-in-june-check-complete-list-here-rc1042412"
+                            i-amphtml-orig-tabindex="0" tabindex="-1">
+                            <amp-img
+                                class="img-fill pa i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                                layout="responsive" height="1350" width="1080"
+                                alt="Sonalee Kulkarni's beautiful pictures in a white saree"
+                                src="https://img.jagrantv.com/webstories/ws4350/1685642004-bank-holidays.jpg"
+                                i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc"
+                                    style="padding-top: 125%;"></i-amphtml-sizer></amp-img></a>
+                        <h2 class="rc3 pa">Bank Holidays in June 2023 ... <span class="copy"><amp-img alt="copylink"
+                                    src="https://img.naidunia.com/images/banners/cl.png" layout="responsive" height="25"
+                                    width="25"
+                                    class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                                    i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc"
+                                        style="padding-top: 100%;"></i-amphtml-sizer>
+                                </amp-img></span></h2>
+                    </div>
+                    <div class="rc3-in pa"><amp-img alt="" src="https://www.jagranimages.com/images/brown_bgimg.png"
+                            class="img-fill pa i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                            layout="responsive" height="480" width="480" i-amphtml-layout="responsive"><i-amphtml-sizer
+                                slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+
+                        </amp-img></div>
+
+                    <div class="rc4 pa card_1"><a class="story-tooltip pa" data-tooltip-text="Click Here" role="link"
+                            id="rc2"
+                            href="https://www.jagrantv.com/hi-show/ipl-2023-prize-money-csk-get-rs-20-crore-check-complete-list-of-prize-money-award-winners-and-the-details-rc1042541"
+                            i-amphtml-orig-tabindex="0" tabindex="-1">
+                            <amp-img
+                                class="img-fill pa i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                                layout="responsive" height="1350" width="1080" alt=""
+                                src="https://img.jagrantv.com/webstories/ws4350/1685642005-the-ipl-2023.jpg"
+                                i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc"
+                                    style="padding-top: 125%;"></i-amphtml-sizer></amp-img>
+
+
+                        </a>
+                        <div class="rc3-in pa"><amp-img alt="" src="https://www.jagranimages.com/images/brown_bgimg.png"
+                                class="img-fill pa i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                                layout="responsive" height="480" width="480"
+                                i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc"
+                                    style="padding-top: 100%;"></i-amphtml-sizer>
+
+                            </amp-img></div>
+                        <h2 class="rc5 pa">IPL 2023 Prize Money ... <span class="copy"><amp-img alt="copylink"
+                                    src="https://img.naidunia.com/images/banners/cl.png" layout="responsive" height="25"
+                                    width="25"
+                                    class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built"
+                                    i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc"
+                                        style="padding-top: 100%;"></i-amphtml-sizer>
+                                </amp-img></span></h2>
+                    </div>
+
+
+                </div>
+
+                <div class="" aria-hidden="true" aria-label="Loading video">
+
+                    <div class="left"></div>
+                    <div class="right"></div>
+
+                </div>
+            </amp-story-grid-layer>
+
+
+            <amp-story-page-outlink layout="nodisplay"
+                cta-image="https://cdn.coingape.com/wp-content/uploads/2017/09/14183030/cropped-CoinGape_logo-180x180.png"
+                class="i-amphtml-layout-nodisplay" hidden="hidden" i-amphtml-layout="nodisplay">
+
+                <a href="https://coingape.com/web-stories/" target="_blank" i-amphtml-orig-tabindex="0"
+                    tabindex="-1">Swipe up for more stories...</a>
+
+                <a href="https://coingape.com/web-stories/" target="_blank" i-amphtml-orig-tabindex="0"
+                    tabindex="-1">Swipe up for more stories...</a>
+            </amp-story-page-outlink>
+
+
+
+
+
+
+
+            <div class="i-amphtml-story-spinner" aria-hidden="true" aria-label="Loading video">
+                <div class="i-amphtml-story-spinner-container">
+                    <div class="i-amphtml-story-spinner-layer">
+                        <div class="i-amphtml-story-spinner-circle-clipper left"></div>
+                        <div class="i-amphtml-story-spinner-circle-clipper right"></div>
+                    </div>
+                </div>
+            </div>
+
+        </amp-story-page>
+
+        <!-- <amp-story-auto-analytics gtag-id="UA-116549687-1"
+            class="i-amphtml-layout-container i-amphtml-element i-amphtml-built" i-amphtml-layout="container">
+            <amp-analytics data-credentials="include" type="gtag"
+                class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="fixed" style="width: 1px; height: 1px;" aria-hidden="true" hidden="">
+                <script type="application/json">
+                    {"vars": {"gtag_id":"UA-116549687-1","config":{"UA-116549687-1":{"groups":"default"}}},"triggers":{"storyPageCount":{"on":"story-content-loaded","vars":{"event_name":"custom","event_action":"story_page_count","event_category":"${title}","event_label":"${storyPageCount}","send_to":["UA-116549687-1"]},"storySpec":{"repeat":false}},"storyEnd":{"on":"story-last-page-visible","vars":{"event_name":"custom","event_action":"story_complete","event_category":"${title}","event_label":"${title}","send_to":["UA-116549687-1"]},"storySpec":{"repeat":false}},"storyPageIndex":{"on":"story-page-visible","vars":{"event_name":"custom","event_action":"story_pages_viewed","event_category":"${title}","event_label":"${storyPageIndex}","send_to":["UA-116549687-1"]},"storySpec":{"repeat":false}},"storyShoppingTagClick":{"on":"story-shopping-tag-click","vars":{"event_name":"custom","event_action":"story_shopping_tag_click","event_category":"${title}","event_label":"${storyShoppingProductId}","send_to":["UA-116549687-1"]}},"storyShoppingPLPView":{"on":"story-shopping-plp-view","vars":{"event_name":"custom","event_action":"story_shopping_plp_view","event_category":"${title}","event_label":"${storyPageId}","send_to":["UA-116549687-1"]}},"storyShoppingPDPView":{"on":"story-shopping-pdp-view","vars":{"event_name":"custom","event_action":"story_shopping_pdp_view","event_category":"${title}","event_label":"${storyShoppingProductId}","send_to":["UA-116549687-1"]}},"storyShoppingBuyNowClick":{"on":"story-shopping-buy-now-click","vars":{"event_name":"custom","event_action":"story_shopping_buy_now_click","event_category":"${title}","event_label":"${storyShoppingProductId}","send_to":["UA-116549687-1"]}}}}</script>
+            </amp-analytics>
+        </amp-story-auto-analytics> -->
+
+
+        <amp-story-auto-ads class="i-amphtml-layout-container i-amphtml-element i-amphtml-built i-amphtml-layout"
+            i-amphtml-layout="container">
+            <script type="application/json">
+				{
+					"ad-attributes": {
+						"type": "adsense",
+						"data-ad-client": "ca-pub-0000000000000000",
+						"data-ad-slot": "00000000"
+					}
+				}
+			</script>
+        </amp-story-auto-ads>
+
+        <amp-story-social-share layout="nodisplay" class="i-amphtml-layout-nodisplay" hidden="hidden"
+            i-amphtml-layout="nodisplay">
+            <script
+                type="application/json">{"shareProviders":[{"provider":"twitter"},{"provider":"linkedin"},{"provider":"email"},{"provider":"system"}]}</script>
+        </amp-story-social-share>
+
+        <canvas height="3" width="3"
+            style="width: 100% !important; height: 100% !important; position: absolute !important; left: 0px !important; top: 0px !important;"></canvas><amp-story-share-menu></amp-story-share-menu>
+        <div class="i-amphtml-system-layer-host"></div>
+        <div class="i-amphtml-story-button-container i-amphtml-story-fwd-next next-container"><button
+                class="i-amphtml-story-button-move" aria-label="Next page"></button></div>
+        <div
+            class="i-amphtml-story-button-container i-amphtml-story-back-prev prev-container i-amphtml-story-button-hidden">
+            <button class="i-amphtml-story-button-move" aria-label="Previous page" disabled=""></button>
+        </div>
+        <div class="i-amphtml-ad-overlay-host"></div><amp-story-page ad="" aria-hidden="true" distance="2"
+            id="i-amphtml-ad-page-1" class="i-amphtml-element i-amphtml-layout-container i-amphtml-built i-amphtml-layout
+        i-amphtml-story-page-loaded" i-amphtml-layout="container" role="region"
+            style="background-color: rgb(33, 33, 37);" xdomain-ad=""><amp-story-grid-layer template="fill"
+                class="i-amphtml-element i-amphtml-layout-container i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container"><amp-ad type="adsense" data-ad-client="ca-pub-5394894399252449"
+                    data-ad-slot="7186499537"
+                    class="i-amphtml-story-ad i-amphtml-element i-amphtml-layout-fill i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout"
+                    layout="fill" amp-story="" i-amphtml-layout="fill" style="--loader-delay-offset: 0ms !important;"
+                    data-amp-slot-index="0" data-a4a-upgrade-type="amp-ad-network-adsense-impl">
+                    <div fallback="">
+                        <div class="i-amphtml-ad-default-holder" data-ad-holder-text="Ad"></div>
+                    </div>
+                    <!-- <amp-analytics sandbox="true" trigger="immediate"
+                        class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built"
+                        i-amphtml-layout="fixed" aria-hidden="true" hidden="" style="width: 1px; height: 1px;">
+                        <script
+                            type="application/json">{"requests":{"csi":"https://csi.gstatic.com/csi?"},"transport":{"xhrpost":false},"triggers":{"adRequestStart":{"on":"ad-request-start","request":"csi","sampleSpec":{"sampleOn":"a4a-csi-${pageViewId}","threshold":1},"selector":"amp-ad","selectionMethod":"closest","extraUrlParams":{"met.a4a":"afs_lvt.${viewerLastVisibleTime}~afs.${time}"}},"adResponseEnd":{"on":"ad-response-end","request":"csi","sampleSpec":{"sampleOn":"a4a-csi-${pageViewId}","threshold":1},"selector":"amp-ad","selectionMethod":"closest","extraUrlParams":{"met.a4a":"afe.${time}"}},"adRenderStart":{"on":"ad-render-start","request":"csi","sampleSpec":{"sampleOn":"a4a-csi-${pageViewId}","threshold":1},"selector":"amp-ad","selectionMethod":"closest","extraUrlParams":{"met.a4a":"ast.${scheduleTime}~ars_lvt.${viewerLastVisibleTime}~ars.${time}","qqid":"${qqid}"}},"adIframeLoaded":{"on":"ad-iframe-loaded","request":"csi","sampleSpec":{"sampleOn":"a4a-csi-${pageViewId}","threshold":1},"selector":"amp-ad","selectionMethod":"closest","extraUrlParams":{"met.a4a":"ail.${time}"}}},"extraUrlParams":{"s":"ampad","ctx":"2","c":"${correlator}","slotId":"${slotId}","puid":"${requestCount}~${timestamp}"}}</script>
+                    </amp-analytics> -->
+                    <iframe
+                        src="https://googleads.g.doubleclick.net/pagead/ads?jar=2023-05-18-10&amp;client=ca-pub-5394894399252449&amp;format=1x1&amp;w=1&amp;h=1&amp;ptt=12&amp;iu=7186499537&amp;adk=3721013882&amp;output=html&amp;bc=7&amp;pv=2&amp;wgl=1&amp;asnt=0-15759599382666944725&amp;dff=%22Times%20New%20Roman%22&amp;brdim=52%2C27%2C52%2C27%2C1314%2C27%2C1314%2C741%2C1314%2C668&amp;ifi=1&amp;pfx=0&amp;spsa=397x668&amp;adf=1535842735&amp;nhd=0&amp;adx=458&amp;ady=0&amp;oid=2&amp;is_amp=5&amp;amp_v=2304262219000&amp;d_imp=1&amp;c=426752008204&amp;ga_cid=GA1.1.1310996940.1684408203&amp;ga_hid=8204&amp;dt=1684411409892&amp;biw=1314&amp;bih=668&amp;u_aw=1314&amp;u_ah=741&amp;u_cd=24&amp;u_w=1366&amp;u_h=768&amp;u_tz=330&amp;u_his=2&amp;vis=1&amp;scr_x=0&amp;scr_y=0&amp;url=https%3A%2F%2Fcoingape.com%2Fweb-stories%2Fmattel-set-to-release-its-new-fast-furious-nft-series%2F&amp;loc=https%3A%2F%2Fcoingape.com%2Fweb-stories%2Fmattel-set-to-release-its-new-fast-furious-nft-series%2F%3Futm_source%3Dcoingape%26utm_medium%3Dpostpage&amp;ref=https%3A%2F%2Fcoingape.com%2Fweb-stories%2F&amp;bdt=200&amp;uap=Linux&amp;uapv=5.19.0&amp;uaa=x86&amp;uafv=113.0.5672.63&amp;uab=64&amp;dtd=237&amp;__amp_source_origin=https%3A%2F%2Fcoingape.com"
+                        name="{&quot;_context&quot;:{&quot;ampcontextVersion&quot;:&quot;2304262219000&quot;,&quot;ampcontextFilepath&quot;:&quot;https://3p.ampproject.net/2304262219000/ampcontext-v0.js&quot;,&quot;sourceUrl&quot;:&quot;https://coingape.com/web-stories/mattel-set-to-release-its-new-fast-furious-nft-series/?utm_source=coingape&amp;utm_medium=postpage&quot;,&quot;referrer&quot;:&quot;https://coingape.com/web-stories/&quot;,&quot;canonicalUrl&quot;:&quot;https://coingape.com/web-stories/mattel-set-to-release-its-new-fast-furious-nft-series/&quot;,&quot;pageViewId&quot;:&quot;8204&quot;,&quot;location&quot;:{&quot;href&quot;:&quot;https://coingape.com/web-stories/mattel-set-to-release-its-new-fast-furious-nft-series/?utm_source=coingape&amp;utm_medium=postpage&quot;},&quot;startTime&quot;:1684411410727,&quot;tagName&quot;:&quot;AMP-AD&quot;,&quot;mode&quot;:{&quot;localDev&quot;:false,&quot;development&quot;:false,&quot;esm&quot;:true,&quot;test&quot;:false,&quot;rtvVersion&quot;:&quot;012304262219000&quot;},&quot;canary&quot;:false,&quot;hidden&quot;:false,&quot;initialLayoutRect&quot;:{&quot;left&quot;:458,&quot;top&quot;:0,&quot;width&quot;:397,&quot;height&quot;:668},&quot;domFingerprint&quot;:&quot;1535842735&quot;,&quot;experimentToggles&quot;:{&quot;canary&quot;:false,&quot;a4aProfilingRate&quot;:false,&quot;doubleclickSraExp&quot;:false,&quot;doubleclickSraReportExcludedBlock&quot;:false,&quot;flexAdSlots&quot;:false,&quot;flexible-bitrate&quot;:false,&quot;ios-fixed-no-transfer&quot;:false,&quot;story-ad-placements&quot;:false,&quot;story-disable-animations-first-page&quot;:true,&quot;story-load-inactive-outside-viewport&quot;:true,&quot;amp-sticky-ad-to-amp-ad-v4&quot;:false,&quot;story-video-cache-apply-audio&quot;:false,&quot;amp-story-subscriptions&quot;:true,&quot;esm&quot;:true,&quot;amp-story-first-page-max-bitrate&quot;:false,&quot;story-load-first-page-only&quot;:true,&quot;story-ad-page-outlink&quot;:false,&quot;amp-geo-ssr&quot;:true,&quot;story-remote-localization&quot;:true,&quot;attribution-reporting&quot;:false},&quot;sentinel&quot;:&quot;0-15759599382666944725&quot;,&quot;initialIntersection&quot;:{&quot;time&quot;:1952.199999999255,&quot;rootBounds&quot;:{&quot;left&quot;:0,&quot;top&quot;:0,&quot;width&quot;:1314,&quot;height&quot;:668,&quot;bottom&quot;:668,&quot;right&quot;:1314,&quot;x&quot;:0,&quot;y&quot;:0},&quot;boundingClientRect&quot;:{&quot;left&quot;:458,&quot;top&quot;:668,&quot;width&quot;:397,&quot;height&quot;:668,&quot;bottom&quot;:1336,&quot;right&quot;:855,&quot;x&quot;:458,&quot;y&quot;:668},&quot;intersectionRect&quot;:{&quot;left&quot;:458,&quot;top&quot;:668,&quot;width&quot;:397,&quot;height&quot;:0,&quot;bottom&quot;:668,&quot;right&quot;:855,&quot;x&quot;:458,&quot;y&quot;:668},&quot;intersectionRatio&quot;:0}}}"
+                        height="null" width="null" title="3rd party ad content" role="region" aria-label="Advertisement"
+                        tabindex="0" data-amp-3p-sentinel="0-15759599382666944725" allow="sync-xhr 'none';"
+                        frameborder="0" allowfullscreen="" allowtransparency="" scrolling="no" marginwidth="0"
+                        marginheight="0" class="i-amphtml-fill-content" id="google_ads_iframe_1"
+                        style="width: 397px; height: 668px;"></iframe>
+                </amp-ad></amp-story-grid-layer><amp-story-grid-layer template="fill"
+                class="i-amphtml-element i-amphtml-layout-container i-amphtml-story-layer i-amphtml-built i-amphtml-layout"
+                i-amphtml-layout="container">
+                <div class="i-amphtml-glass-pane"></div>
+            </amp-story-grid-layer></amp-story-page>
+
+
+        <audio class="i-amphtml-pool-media i-amphtml-pool-audio i-amphtml-story-background-audio"
+            id="i-amphtml-pool-media-2" preload="auto" loop="" muted="">
+            <source src="https://cdn.coingape.com/wp-content/uploads/2022/03/26131122/News-corporate.mp3">
+        </audio>
+    </amp-story>
+
+    <amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json" data-credentials="include">
+        <script type="application/json">
+{
+    "vars": {
+                "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+                "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+                "DEFAULT_PAGEVIEW_ENABLED": false,   
+                "GOOGLE_CONSENT_ENABLED": false,
+                "WEBVITALS_TRACKING": false,
+                "PERFORMANCE_TIMING_TRACKING": false,
+                "SEND_DOUBLECLICK_BEACON": false
+    },
+    "triggers": {
+        "trackStoryloaded": {
+            "on": "story-content-loaded",
+            "request": "ga4Event",
+            "vars": {
+                "ga4_event_name": "story_page_load"  
+            },
+            "storySpec":{
+                "repeat":false
+            },
+            "extraUrlParams": 
+            {
+                "event__str_Client_Id": "CLIENT_ID(_ga).",
+                "event__str_totalStoryCount": "${storyPageCount}",
+                "event__str_title": "${title}",                        
+                "event__str_storyIsMuted": "${storyIsMuted}"
+            }
+        }
+    }
+}
+</script>
+    </amp-analytics>
+
+
+
+    <amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json" data-credentials="include">
+        <script type="application/json">
+{
+   "vars": {
+               "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+               "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+               "DEFAULT_PAGEVIEW_ENABLED": false,   
+               "GOOGLE_CONSENT_ENABLED": false,
+               "WEBVITALS_TRACKING": false,
+               "PERFORMANCE_TIMING_TRACKING": false,
+               "SEND_DOUBLECLICK_BEACON": false
+   },
+   "triggers": {
+       "storyPageVisible": {
+           "on": "story-page-visible",
+           "request": "ga4Event",
+           "vars": {
+               "ga4_event_name": "story_pages_viewed"  
+           },
+           "extraUrlParams": 
+           {
+               "event__str_Client_Id": "CLIENT_ID(_ga).",
+               "event__str_storyPageIndex": "${storyPageIndex}",
+               "event__str_storyPageId": "${storyPageId}",
+               "event__str_totalStoryCount": "${storyPageCount}",
+               "event__str_storyProgress": "${storyProgress}",
+               "event__str_title": "${title}",                        
+               "event__str_storyIsMuted": "${storyIsMuted}",
+               "event__str_storyMode": "${storyAdvancementMode}" 
+           }
+       }
+   }
+}
+</script>
+    </amp-analytics>
+
+    <amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json"
+        data-credentials="include">
+        <script type="application/json">
+{
+   "vars": {
+               "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+               "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+               "DEFAULT_PAGEVIEW_ENABLED": false,   
+               "GOOGLE_CONSENT_ENABLED": false,
+               "WEBVITALS_TRACKING": false,
+               "PERFORMANCE_TIMING_TRACKING": false,
+               "SEND_DOUBLECLICK_BEACON": false
+   },
+   "triggers": {
+       "storyLastPageVisible": {
+           "on": "story-last-page-visible",
+           "request": "ga4Event",
+           "vars": {
+               "ga4_event_name": "story_completed"  
+           },
+           "extraUrlParams": 
+           {
+               "event__str_Client_Id": "CLIENT_ID(_ga).",
+               "event__str_storyPageIndex": "${storyPageIndex}",
+               "event__str_storyPageId": "${storyPageId}",
+               "event__str_totalStoryCount": "${storyPageCount}",
+               "event__str_storyProgress": "${storyProgress}",
+               "event__str_title": "${title}",                        
+               "event__str_storyIsMuted": "${storyIsMuted}",
+               "event__str_storyMode": "${storyAdvancementMode}" 
+           }
+       }
+   }
+}
+    </script>
+</amp-analytics>
+
+<amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json"
+    data-credentials="include">
+    <script type="application/json">
+{
+"vars": {
+            "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+            "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+            "DEFAULT_PAGEVIEW_ENABLED": false,   
+            "GOOGLE_CONSENT_ENABLED": false,
+            "WEBVITALS_TRACKING": false,
+            "PERFORMANCE_TIMING_TRACKING": false,
+            "SEND_DOUBLECLICK_BEACON": false
+},
+"triggers": {
+    "storyAudioMuted": {
+        "on": "story-audio-muted",
+        "request": "ga4Event",
+        "vars": {
+            "ga4_event_name": "story_muted"  
+        },
+        "extraUrlParams": 
+        {
+            "event__str_Client_Id": "CLIENT_ID(_ga).",
+            "event__str_storyPageIndex": "${storyPageIndex}",
+            "event__str_storyPageId": "${storyPageId}",
+            "event__str_totalStoryCount": "${storyPageCount}",
+            "event__str_storyProgress": "${storyProgress}",
+            "event__str_title": "${title}",
+            "event__str_storyIsMuted": "${storyIsMuted}",
+            "event__str_storyMode": "${storyAdvancementMode}"       
+        }
+    },
+    "storyAudioUnmuted": {
+        "on": "story-audio-unmuted",
+        "request": "ga4Event",
+        "vars": {
+            "ga4_event_name": "story_unmuted"  
+        },
+        "extraUrlParams": 
+        {
+            "event__str_Client_Id": "CLIENT_ID(_ga).",
+            "event__str_storyPageIndex": "${storyPageIndex}",
+            "event__str_storyPageId": "${storyPageId}",
+            "event__str_totalStoryCount": "${storyPageCount}",
+            "event__str_storyProgress": "${storyProgress}",
+            "event__str_title": "${title}",
+            "event__str_storyIsMuted": "${storyIsMuted}",
+            "event__str_storyMode": "${storyAdvancementMode}"       
+        }
+    }
+} 
+}
+</script>
+</amp-analytics>
+
+<amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json"
+        data-credentials="include">
+        <script type="application/json">
+    {
+        "vars": {
+                    "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+                    "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+                    "DEFAULT_PAGEVIEW_ENABLED": false,   
+                    "GOOGLE_CONSENT_ENABLED": false,
+                    "WEBVITALS_TRACKING": false,
+                    "PERFORMANCE_TIMING_TRACKING": false,
+                    "SEND_DOUBLECLICK_BEACON": false
+        },
+        "triggers": {
+         "storyAttach": {
+            "on": "story-page-attachment-enter",
+            "request": "ga4Event",
+            "vars": {
+                "ga4_event_name": "story_page_attachment"  
+            },
+            "extraUrlParams": 
+            {
+                "event__str_Client_Id": "CLIENT_ID(_ga).",
+                "event__str_storyPageIndex": "${storyPageIndex}",
+                "event__str_storyPageId": "${storyPageId}",
+                "event__str_totalStoryCount": "${storyPageCount}",
+                "event__str_storyProgress": "${storyProgress}",
+                "event__str_title": "${title}",
+                "event__str_storyIsMuted": "${storyIsMuted}",
+                "event__str_storyMode": "${storyAdvancementMode}"       
+            }
+        }    
+    } 
+}
+</script>
+    </amp-analytics>
+
+
+    <amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json"
+        data-credentials="include">
+        <script type="application/json">
+    {
+        "vars": {
+                    "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+                    "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+                    "DEFAULT_PAGEVIEW_ENABLED": false,   
+                    "GOOGLE_CONSENT_ENABLED": false,
+                    "WEBVITALS_TRACKING": false,
+                    "PERFORMANCE_TIMING_TRACKING": false,
+                    "SEND_DOUBLECLICK_BEACON": false
+        },
+        "triggers": {
+         "trackClickThrough": {
+            "on": "story-click-through",
+            "request": "ga4Event",
+            "vars": {
+                "ga4_event_name": "story_click_through"  
+            },
+            "extraUrlParams": 
+            {
+                "event__str_Client_Id": "CLIENT_ID(_ga).",
+                "event__str_storyPageIndex": "${storyPageIndex}",
+                "event__str_storyPageId": "${storyPageId}",
+                "event__str_totalStoryCount": "${storyPageCount}",
+                "event__str_storyProgress": "${storyProgress}",
+                "event__str_title": "${title}",
+                "event__str_storyIsMuted": "${storyIsMuted}",
+                "event__str_storyMode": "${storyAdvancementMode}"     
+            }
+        }    
+    } 
+}
+</script>
+</amp-analytics>
+
+
+<amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json"
+        data-credentials="include">
+        <script type="application/json">
+    {
+        "vars": {
+                    "GA4_MEASUREMENT_ID": "G-2Y1PP6JNH1",
+                    "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+                    "DEFAULT_PAGEVIEW_ENABLED": false,   
+                    "GOOGLE_CONSENT_ENABLED": false,
+                    "WEBVITALS_TRACKING": false,
+                    "PERFORMANCE_TIMING_TRACKING": false,
+                    "SEND_DOUBLECLICK_BEACON": false
+        },
+        "triggers": {
+         "trackShareOpen": {
+            "on": "story-open",
+            "tagName": "amp-story-share-menu",
+            "request": "ga4Event",
+            "vars": {
+                "ga4_event_name": "story_share_menu_click"  
+            },
+            "extraUrlParams": 
+            {
+                "event__str_Client_Id": "CLIENT_ID(_ga).",
+                "event__str_storyPageIndex": "${storyPageIndex}",
+                "event__str_storyPageId": "${storyPageId}",
+                "event__str_totalStoryCount": "${storyPageCount}",
+                "event__str_storyProgress": "${storyProgress}",
+                "event__str_title": "${title}",
+                "event__str_storyIsMuted": "${storyIsMuted}",
+                "event__str_storyMode": "${storyAdvancementMode}"        
+            }
+        }
+    } 
+}
+</script>
+</amp-analytics>
+
+
+</body>
+
+</html>
